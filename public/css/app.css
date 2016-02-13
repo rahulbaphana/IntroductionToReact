@@ -1,0 +1,89 @@
+body{
+    font-family: sans-serif;
+    background-color: #F3F2F2;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 350px;
+    text-align: center;
+}
+
+.lanes {
+    width: 300px;
+    margin-right: 2%;
+    float: left;
+}
+
+.logo{
+    font-size: 42px;
+}
+
+.message{
+    margin-top:10px;
+}
+
+.sign-in-img img{
+    margin: 10px;
+}
+
+.sub-header{
+    margin: 10px;
+    border-top: solid 1px gray;
+    padding: 10px;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: solid 1px lightblue;
+
+}
+
+.remove-lane{
+    position: relative;
+    float: right;
+    top: -55px;
+    right: -15px;
+    margin-bottom: -43px;
+}
+
+.lane{
+    padding:10px;
+}
+
+.lane .add-card-btn{
+    position: relative;
+    text-align: left;
+    bottom: -40px;
+}
+
+.card {
+    margin-right: 10px;
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.card-content{
+    margin-bottom: 10px;
+}
+
+.votes{
+    top: -8px;
+    right: -1px;
+    padding: 10px !important;
+}
+
+.number-of-likes{
+    float: left;
+    width: 30px;
+}
+
+.like-btn {
+    float: right;
+}

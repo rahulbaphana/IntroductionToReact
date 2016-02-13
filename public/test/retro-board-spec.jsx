@@ -1,11 +1,12 @@
-jest.dontMock('../js/retro-board.jsx')
+jest.dontMock('../js/retro-board.jsx');
+jest.dontMock('../js/lane.jsx');
+jest.dontMock('material-ui/lib/paper')
 
 var React = require('react');
 var ReactDOM = require('react-dom');
 var TestUtils = require('react-addons-test-utils');
 
 var RetroBoard = require('../js/retro-board.jsx');
-
 
 describe('RetroBoard', () => {
 
