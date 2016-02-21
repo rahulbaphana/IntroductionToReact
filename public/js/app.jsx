@@ -9,6 +9,8 @@ import { Router, Route, hashHistory } from 'react-router'
 ReactDOM.render((
                   <div>
                      <Header/>
-                     <AllRoutes/>
+                     <div className="container-fluid">
+                        <AllRoutes/>
+                     </div>
                    </div>
 ), document.getElementById('app'));
